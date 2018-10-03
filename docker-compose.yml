@@ -1,0 +1,13 @@
+version: '2'
+services:
+
+  backend:
+    image: $IMAGE_DEV
+    container_name: $CONTAINER_NAME
+    volumes:
+      - ./app/:/app
+    environment:
+      LC_ALL: en_US.UTF-8
+      TZ: America/Lima
+    ports:
+      - 8787:80

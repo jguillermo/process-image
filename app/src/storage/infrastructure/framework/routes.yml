@@ -1,0 +1,4 @@
+- prefix: '/v1/ia'
+- routes:
+  - /image: src.storage.infrastructure.framework.handlers.ia.IaImageHandler
+

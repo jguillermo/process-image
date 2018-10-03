@@ -4,5 +4,6 @@
 *.idea/
 *env/
 .DS_Store
-app/sdk/model
+app/sdk/model/*
+app/files/*
 !.gitkeep
