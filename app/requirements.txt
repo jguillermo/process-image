@@ -1,9 +1,6 @@
 falcon==1.4.1
 gunicorn==19.7.1
 PyYAML==3.12
-dependency_injector==3.11.3
 Pillow==5.2.0
 piexif==1.0.13
 python-dotenv==0.8.2
-grpcio==1.15.0
-PyJWT==1.6.4

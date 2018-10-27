@@ -8,12 +8,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     unzip
 
 RUN pip --no-cache-dir install \
-        Pillow \
         h5py \
         keras_applications \
         keras_preprocessing \
-        matplotlib \
-        numpy \
         pandas \
         scipy \
         sklearn \
