@@ -29,7 +29,7 @@ run: ## build image to raml: make build-raml
 up: ## up docker containers: make up
 	docker-compose up -d
 	@make status
-	#open http://localhost:8787/v1/ia/image
+	open http://localhost:8787/v1/ia/image
 
 start: ## up docker containers: make up
 	make up
