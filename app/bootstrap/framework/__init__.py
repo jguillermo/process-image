@@ -6,7 +6,6 @@ from bootstrap import File
 from bootstrap.framework.middlewares.MultipartMiddleware import MultipartMiddleware
 from bootstrap.framework.middlewares.basic import Basic
 from bootstrap.framework.middlewares.cors_middleware import CORSMiddleware
-from bootstrap.framework.middlewares.sql_alchemy_session_manager import SQLAlchemySessionManager
 
 
 class FalconApi:
