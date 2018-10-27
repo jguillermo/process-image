@@ -7,17 +7,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libmysqlclient-dev \
     unzip
 
-RUN pip --no-cache-dir install \
-        h5py \
-        keras_applications \
-        keras_preprocessing \
-        pandas \
-        scipy \
-        sklearn \
-        tensorflow \
-        scikit-image
+#RUN pip install --upgrade pip
 
-# Install Python, tools
 
 ADD resources /resources/
 RUN python --version
